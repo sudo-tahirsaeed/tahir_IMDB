@@ -9,7 +9,7 @@ An interview task for Cowlar Design Studio, this project is a movie database web
 3. Run npm install to install the required node modules.
 4. Finally run using npm start / node index.js
 # Database Configuration:
-1. Database is deployed on cloud by default, but could be configured locally
+1. Database is deployed on cloud by default, but could be configured locally (SQL file attached)
 2. Set up your chosen database server (e.g., XAMPP).
 3. Import the 'databaseFile.sql' file into your database server.
 4. Configure the database credentials in the '/backend/backendconfig/db.js' file in the backend directory.
