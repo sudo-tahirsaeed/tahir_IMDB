@@ -24,5 +24,5 @@ Clone the repository containing the frontend code.
 # TESTS
 1. JEST test cases are inside backend npm test to start testing
 2. Cypress testcases e2e also added in the repo
-   
+# DOCKER IMAGES 
 # Please ensure that ports, API endpoints, and database connections align between the frontend and backend for proper communication.
