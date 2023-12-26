@@ -93,9 +93,9 @@ const MovieDetails = () => {
                     setisLoading(false);
                 })
                 .catch((error) => {
-                    console.error('Error validating token:', error);
+                   
                     setisLoading(false)
-                    alert(error)
+                 
                     // Handle error scenarios
                 });
         }
