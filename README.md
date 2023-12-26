@@ -1,4 +1,4 @@
-# tahir_IMDB
+# tahir_IMDB_COWLAR
 # Description 
 An interview task for Cowlar Design Studio, this project is a movie database web app. Users can search, rate, comment, and add movies. Developed using React, Node.js, Express, and MySQL.
 # HOW TO RUN
@@ -21,5 +21,12 @@ Clone the repository containing the frontend code.
 2. Run npm install to install the required dependencies.
 3. Run npm start to launch the frontend application.
 4. This setup assumes the backend and frontend are separate projects. Adjust any configuration or port settings as needed based on the project's specific setup.
-
-Please ensure that ports, API endpoints, and database connections align between the frontend and backend for proper communication.
+# TESTS
+1. JEST test cases are inside backend npm test to start testing
+2. Cypress testcases e2e also added in the repo
+# DOCKER IMAGES 
+1. sudotahirsaeed/tahirsapp-backend:latest
+2. sudotahirsaeed/tahirsapp-frontend:latest
+3. docker push sudotahirsaeed/tahirsapp-backend:latest
+4. docker push sudotahirsaeed/tahirsapp-frontend:latest
+# Please ensure that ports, API endpoints, and database connections align between the frontend and backend for proper communication.
