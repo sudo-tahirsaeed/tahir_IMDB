@@ -1,0 +1,118 @@
+/* Navbar Styles */
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #3C1518;
+  color: #f4d35e;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px; /* Reduced padding */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.brand img {
+  height: 24px; /* Adjusted height */
+  width: auto;
+}
+.brand h3 {
+  margin-left: 8px; /* Adjusted margin */
+  font-size: 18px; /* Smaller font size */
+  color: #f4d35e;
+}
+.login-btn {
+  margin-right: 16px; /* Adjusted margin */
+  color:'black';
+  display: flex;
+  flex-direction: row;
+}
+.login-btn button {
+  font-size: 14px; /* Smaller font size */
+margin-left: 15px;
+  color: white;
+  font-weight: 600;
+  background-color: #941c2f;
+  height: 40px;
+}
+.login-btn button:hover {
+  background-color: #6F1D1B;
+}
+.login-button {
+  background-color: #31d843;
+  font-weight: 600;
+  color: black;
+}
+.login-button:hover {
+  background-color: #868080;
+}
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .brand {
+    margin-bottom: 8px; /* Adjusted margin */
+  }
+  .login-btn {
+    margin-right: 0;
+  }
+  .login-btn button {
+    margin-right: 0;
+    margin-top: 10px;
+  }
+}
+/* Navbar.css */
+/* Search box container */
+.search-box {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Horizontally center content */
+  width: 500px; /* Adjust as needed */
+  align-self: center;
+}
+/* Input field */
+.search-input {
+  flex-grow: 1;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  transition: border-color 0.2s ease-in-out;
+  margin-right: 5px;
+align-items: center;
+}
+.search-input:focus {
+  border-color: #555; /* Highlight on focus */
+  outline: none;
+}
+/* Search button */
+.search-btn {
+  background-color: #F3CA40;
+  color: #000000;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+.search-btn:hover {
+  background-color: #F2A541; /* Subtle hover effect */
+}
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .search-box {
+    width: 100%; /* Take full width on smaller screens */
+  }
+  .search-input,
+  .search-btn {
+    font-size: 14px; /* Adjust font size for readability */
+  }
+}

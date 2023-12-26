@@ -1,0 +1,15 @@
+.add-movie-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 16px;
+    border-radius: 20px;
+    background-color: #0E0E52;
+    color: white;
+    /* Add any additional styles here */
+  }
+  .add-movie-button:hover {
+    background-color: #1B5299;
+    color: white;
+    /* Add any additional styles here */
+  }

@@ -1,0 +1,91 @@
+.movie-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #000022;
+    height: 100%;
+    width: 100%;
+  }
+  .poster-container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .poster {
+    width: 50%;
+    height: 50%;
+    margin-right: 50px;
+  }
+  .description {
+    text-align: left; /* Align text to the left for better readability */
+    color:azure;
+  }
+  .rating {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .star-rating {
+    display: flex;
+    gap: 10px;
+  }
+  .star {
+    font-size: 24px;
+    color: #ccc;
+    cursor: pointer;
+  }
+  .star.active {
+    color: gold;
+  }
+  .comments {
+    margin-top: 20px;
+    border: 1px solid #E28413;
+    padding: 10px;
+    width: 80%;
+  }
+  .comment {
+    border: 1px solid #00A6A6;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px; /* Add rounded corners for a softer look */
+    text-wrap: wrap;
+    background-color: #141115;
+  }
+  .comment p {
+    margin-bottom: 0; /* Remove extra spacing below comments */
+    color:azure;
+    margin-bottom: 7px;
+  }
+  .add-comment {
+    display: flex;
+    gap: 10px;
+  }
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    resize: none;
+    border-radius: 15px;
+    padding: 10px;
+  }
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .poster-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    .poster {
+      margin-bottom: 20px;
+    }
+  }
