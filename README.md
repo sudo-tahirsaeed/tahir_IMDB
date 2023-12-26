@@ -25,8 +25,8 @@ Clone the repository containing the frontend code.
 1. JEST test cases are inside backend npm test to start testing
 2. Cypress testcases e2e also added in the repo
 # DOCKER IMAGES 
-sudotahirsaeed/tahirsapp-backend:latest
-sudotahirsaeed/tahirsapp-frontend:latest
-docker push sudotahirsaeed/tahirsapp-backend:latest
-docker push sudotahirsaeed/tahirsapp-frontend:latest
+1. sudotahirsaeed/tahirsapp-backend:latest
+2. sudotahirsaeed/tahirsapp-frontend:latest
+3. docker push sudotahirsaeed/tahirsapp-backend:latest
+4. docker push sudotahirsaeed/tahirsapp-frontend:latest
 # Please ensure that ports, API endpoints, and database connections align between the frontend and backend for proper communication.
