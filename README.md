@@ -25,4 +25,4 @@ Clone the repository containing the frontend code.
 1. JEST test cases are inside backend npm test to start testing
 2. Cypress testcases e2e also added in the repo
    
-Please ensure that ports, API endpoints, and database connections align between the frontend and backend for proper communication.
+# Please ensure that ports, API endpoints, and database connections align between the frontend and backend for proper communication.
