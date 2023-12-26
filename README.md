@@ -21,5 +21,7 @@ Clone the repository containing the frontend code.
 2. Run npm install to install the required dependencies.
 3. Run npm start to launch the frontend application.
 4. This setup assumes the backend and frontend are separate projects. Adjust any configuration or port settings as needed based on the project's specific setup.
-
+# TESTS
+1. JEST test cases are inside backend npm test to start testing
+2. Cypress testcases e2e also added in the repo 
 Please ensure that ports, API endpoints, and database connections align between the frontend and backend for proper communication.
